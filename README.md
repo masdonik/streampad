@@ -77,25 +77,25 @@ StreamFlow adalah aplikasi live streaming yang memungkinkan kamu untuk melakukan
 
    🚀 Perintah menjalankan aplikasi ✨
    ```bash
-   pm2 start streamflow
-   pm2 logs streamflow -i 0 --lines 1
+   pm2 start streampad
+   pm2 logs streampad -i 0 --lines 1
    ```
 
    📈 Melihat status aplikasi berjalan
    ```bash
-   pm2 status streamflow
+   pm2 status streampad
    ```
 
    ⛔ Menghentikan aplikasi
    ```bash
-   pm2 stop streamflow
+   pm2 stop streampad
    ```
 
 7. **Reset Password:**
    
    Jalankan perintah ini di terminal
    ```bash
-   npm start reset-streamflow
+   npm start reset-streampad
    ```
 
 9. **Konfigurasi:**
